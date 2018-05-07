@@ -6,8 +6,8 @@ require ws3000,0.0.1
 require iocStats,1856ef5
 require autosave,5.9.0
 
-require devlib2,2.9.0
-require mrfioc2,2.2.0
+#require devlib2,2.9.0
+require mrfioc2,2.2.0-rc1
 
 epicsEnvSet("IOC","SUPERCYCLE")
 epicsEnvSet("TOP",."")
